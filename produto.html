@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Produto</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css"> <!-- Arquivo CSS personalizado -->
+
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <!-- Coluna para a foto do produto -->
+        <div class="col-md-6">
+            <img src="" class="img-fluid" alt="Foto do Produto">
+            <!-- Adicione um carrossel aqui, se necessário -->
+        </div>
+        <!-- Coluna para as informações do produto -->
+        <div class="col-md-6">
+            <h2>sofá</h2>
+            <p class="text-muted">Descrição do Produto</p>
+            <div class="mb-3">
+                <label for="quantidade">Quantidade:</label>
+                <input type="number" id="quantidade" class="form-control" value="1">
+            </div>
+            <div class="mb-3">
+                <label for="opcao">Opção:</label>
+                <select id="opcao" class="form-control">
+                    <option value="opcao1">6 lugares</option>
+                    <option value="opcao2">4 lugares</option>
+                    <!-- Adicione mais opções aqui, se necessário -->
+                </select>
+            </div>
+            <h3>Preço: R$ <span id="preco">XX.XX</span></h3>
+            <button class="btn btn-primary" onclick="adicionarAoCarrinho()">Adicionar ao Carrinho</button>
+        </div>
+    </div>
+</div>
+
+<!-- JavaScript no final do corpo para garantir que o DOM esteja carregado -->
+<script src="produto.js"></script> <!-- Arquivo JavaScript personalizado -->
+</body>
+</html>

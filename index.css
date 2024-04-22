@@ -1,0 +1,429 @@
+@media screen and (min-width: 1200px) 
+ {
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 50 px;
+    background-color: #051703e9;
+    color: #f0efba;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 50px;
+    height: 230px;
+
+
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+.cabeçalho {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+    flex-direction: column;
+}
+
+.cabeçalho h1 {
+    font-size: 70px;
+    
+
+}
+
+
+.cabeçalho p {
+    font-size: 18px;
+
+}
+
+.formulario form{
+    display: flex;
+    background-color: #f0efba;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 20px;
+    border: 5px solid rgb(255, 255, 255);
+
+  }
+  
+  .formulario input{
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding-left: 12px;
+
+
+
+  }
+  
+  .formulario img{
+  
+    border: none;
+    width: 20px;
+    height: 20px;
+    margin-left: 12px;
+  }
+
+.formulario button{
+color: transparent;
+color-scheme: black;
+background-color: transparent;
+
+
+
+
+
+
+}
+
+section {
+    display: flex;
+    height: 100vh;
+    position: relative;
+}
+
+nav.menu {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    z-index: 3;
+    justify-content: center;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    position: center; 
+    z-index: 999; 
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row; 
+}
+
+.navbar-nav .nav-link {
+    margin: 0 57px; 
+
+}
+.dropdown-menu {
+    background-color: #000000; 
+    border: 1px solid #000000; 
+    border-radius: 5px; 
+    padding: 20px;
+  }
+  
+  .dropdown-menu li {
+    list-style: none; 
+  }
+  
+  .dropdown-menu li a {
+    text-decoration: none; 
+    color: #333; 
+  }
+  
+  .dropdown-menu li a:hover {
+    background-color: #f0f0f0; 
+  }
+
+
+.menu li {
+   
+    display: inline;
+    font-size: 20px;
+    padding: 45px;
+   margin-left: 5px;
+   margin-right: 5px;
+  
+    
+}
+
+.menu ul li a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color:#426f1f;
+}
+
+.BarraTransp {
+    position: absolute;
+    width: 100%;
+    height: 0;
+    background-color: #f0efba;
+    color: #000000;
+    font-size: 1px;
+    z-index: 2;
+    transition: height 0.6s ease, color 0.1s ease;
+}
+
+.barraMenu:hover .BarraTransp {
+    height: 60px;
+    color: white;
+}
+
+.degrade {
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to bottom, #f7f7f7c8, #ffffff13);
+    z-index: 1;
+}
+
+div.barraSuperior {
+
+    padding: 20px;
+    margin: 10px;
+    height: 100px;
+    width: 100%;
+    background-color: #1fdee1;
+    color: rgb(174, 255, 0);
+
+}
+
+
+.textoSection {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #0e1706;
+    font-size: 51px;
+    text-align: center;
+    z-index: 1;
+    padding: 20px;
+   
+}
+
+.botao{ 
+    position: absolute;
+    margin-top: 70px;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    padding: 15px;
+    color:#f0efba;
+    border: 3px solid #f0efba;
+    text-transform: uppercase;
+    border: 3px solid #f0efba;
+    background-image: none;
+   
+   
+    
+}
+
+.botaonovacole:hover .botao {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: #786625; 
+    position: absolute;
+    
+    
+}
+
+.botao::before {
+    content: ''; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #051703e9;
+    filter: blur(20px); 
+    z-index: -1; 
+}
+
+.imagembackground {
+    position: absolute;
+    width: 100%;
+    margin: 0%;
+    height: 100vh;
+    background-image: url('https://cb2.scene7.com/is/image/CB2/030624_Spring_HP_D?wid=1920&qlt=85');
+    background-size: cover;
+    background-position: center top;
+}
+
+.imagembackgroundsofa {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+section2 {
+    display: flex;
+    height:100h;
+    position: relative;
+}
+
+.Barra2
+{  
+    position: absolute;
+    height: 120px;
+    width: 100%;
+    background-color: #051703e9;
+    color: #051703e9;
+
+
+ }
+
+.mostruario{ 
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f0efba;
+    font-size: 45px;
+    text-align: center;
+    z-index: 1;
+    padding: 20px;
+    
+   
+
+ }
+
+ .Produtos {
+   
+    width: 100%;
+    overflow-x:scroll;
+    white-space: nowrap;
+    -webkit-overflow-scrolling:touch;
+    margin-top: 15px;
+    background-color: #051703e9;
+    margin-bottom: 15px;
+    color: #f0efba;  
+
+}
+
+.Produtos::-webkit-scrollbar {
+    padding: 100px;
+    height: 20px; 
+    background-color: #070b07e9; 
+}
+
+.Produtos::-webkit-scrollbar-thumb {
+    background-color: #c4c993; 
+    border-radius: 4px; 
+}
+
+.Produtos::-webkit-scrollbar-thumb:hover {
+    background-color: #ebe36e;
+}
+
+.ProdutosCarro img {
+    position: relative;
+    display: inline-block;
+    width: 250px; 
+    height: 310px;
+    margin-right: 10px;
+    margin-top: 100px; 
+    color: #f0efba;
+    
+}
+.ProdutosCarro .item {
+    
+    display: inline-block;
+    vertical-align: top; 
+    margin-right: 10px;
+    color: #f0efba;
+    text-align: center; 
+}
+  
+  .ProdutosCarro .item img {
+    width: 250px; 
+    height: 310px; 
+  }
+  
+  .ProdutosCarro p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  
+
+  .Barra3
+{  
+    position: absolute;
+    height: 120px;
+    width: 100%;
+    background-color: #051703e9;
+    color: #051703e9;
+}
+  
+main
+
+{
+    color:#f0efba;
+    margin-top: -15PX;
+    padding: 30px;
+    padding-right: 25px;
+    background-color: #718e5a;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+}
+
+.inscrição{
+    display: flex;
+    background-color:#9fa564;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 20px;
+    border: 5px solid#f0efba;
+    width: 320px;
+}
+
+.inscrição input{
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+.inscrição button{
+    background-color: transparent;
+    border: none;
+    border-bottom: #f0efba;
+    padding-right: 16px;
+
+    
+
+}
+
+footer,
+aside {
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #4f5a50;
+    background-color:#091b07f3;
+}
