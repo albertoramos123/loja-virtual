@@ -1,0 +1,121 @@
+
+ 
+    
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 50 px;
+    background-color: #051703e9;
+    color: #f0efba;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 50px;
+    height: 230px;
+
+
+}
+.formulario form{
+    display: flex;
+    background-color: #f0efba;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 20px;
+    border: 5px solid rgb(255, 255, 255);
+
+  }
+  
+  .formulario input{
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding-left: 12px;
+
+
+
+  }
+  
+  .formulario img{
+  
+    border: none;
+    width: 20px;
+    height: 20px;
+    margin-left: 12px;
+  }
+
+.formulario button{
+color: transparent;
+color-scheme: black;
+background-color: transparent;
+
+}
+
+
+footer,
+aside {
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #4f5a50;
+    background-color:#091b07f3;
+}
+section {
+    display: flex;
+    height: 100vh;
+    position: relative;
+}
+
+nav.menu {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    z-index: 3;
+    justify-content: center;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    position: center; 
+    z-index: 999; 
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row; 
+}
+
+.navbar-nav .nav-link {
+    margin: 0 72px; 
+
+}
+
+.produto {
+    margin-top: 7%;
+    background-color:  #718e5a;
+    padding: 20px;
+    border-radius: 8%;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+}
+
+.produto h2 {
+    margin-top: 0;
+}

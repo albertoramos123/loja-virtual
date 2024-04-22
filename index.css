@@ -134,7 +134,7 @@ nav.menu {
 }
 
 .navbar-nav .nav-link {
-    margin: 0 57px; 
+    margin: 0 72px; 
 
 }
 .dropdown-menu {
@@ -408,13 +408,18 @@ main
     border: none;
     outline: none;
     font-size: 18px;
+    padding: 8px;
+    gap: 12%;
 }
+
+
 
 .inscrição button{
     background-color: transparent;
     border: none;
     border-bottom: #f0efba;
-    padding-right: 16px;
+    padding: 16px;
+   
 
     
 
